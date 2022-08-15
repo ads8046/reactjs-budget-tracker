@@ -1,0 +1,21 @@
+.App-header {
+    margin: 5%;
+}
+
+.App-header h3 {
+    color: white;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App-header h4 {
+    color: rgb(171, 232, 222);
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Widget-container {
+    padding: 2%;
+    background-color: rgb(41, 8, 59);
+    border-radius: 20px;
+}
