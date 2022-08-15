@@ -23,6 +23,12 @@ function App() {
       amount: 450,
       date: new Date(2022, 5, 12),
     },
+    {
+      id: 'e5',
+      title: 'New chair (Gaming)',
+      amount: 500,
+      date: new Date(2022, 6, 17),
+    },
   ];
 
   return (
