@@ -1,10 +1,9 @@
-import './App.css';
-import ExpenseItem from './components/ExpenseItem';
+import ExpenseItem from './components/ExpenseItemComponent/ExpenseItem';
 
 function App() {
   return (
     <div className='App-header'>
-        <h1>Expense Tracker</h1>
+        <h3>Expense Tracker</h3>
         <ExpenseItem />
     </div>
   );
