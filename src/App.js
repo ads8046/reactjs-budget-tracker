@@ -1,4 +1,4 @@
-import ExpenseItem from './components/ExpenseItemComponent/ExpenseItem';
+import ExpenseWidget from './components/ExpenseWidgetComponent/ExpenseWidget';
 import './App.css';
 
 
@@ -25,22 +25,10 @@ function App() {
     },
   ];
 
-  const renderExpenseItems = expenses.map( (item) => 
-      <ExpenseItem
-          id={item.id} 
-          title={item.title}
-          amount={item.amount}
-          date={item.date}
-      />
-  ); 
-
   return (
     <div className='App-header'>
         <h3>Expense Tracker</h3>
-        <div className='Widget-container'>
-          <h4>Expenses</h4>
-          {renderExpenseItems}
-        </div>
+        <ExpenseWidget expenses={expenses} />
     </div>
   );
 }

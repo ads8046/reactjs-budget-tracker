@@ -7,7 +7,6 @@
     margin: 1rem 0;
     border-radius: 12px;
     background-color: #4b4b4b;
-    
   }
   
   .expense-item__description {
@@ -20,8 +19,8 @@
     flex: 1;
   }
   
-  .expense-item h4 {
-    font-size: 1rem;
+  .expense-item h5 {
+    font-size: 1.2rem;
     flex: 1;
     margin: 0 1rem;
     color: white;
