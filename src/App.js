@@ -6,7 +6,7 @@ function App() {
   const expenses = [
     {
       id: 'e1',
-      title: 'Toilet Paper',
+      title: 'Toothpaste',
       amount: 94.12,
       date: new Date(2020, 7, 14),
     },
@@ -19,13 +19,13 @@ function App() {
     },
     {
       id: 'e4',
-      title: 'New Desk (Wooden)',
+      title: 'Desk',
       amount: 450,
       date: new Date(2022, 5, 12),
     },
     {
       id: 'e5',
-      title: 'New chair (Gaming)',
+      title: 'Chair',
       amount: 500,
       date: new Date(2022, 6, 17),
     },
